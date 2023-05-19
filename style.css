@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)), url('/TASK 1/img/argi.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    color: rgba(21, 255, 21, 0.785); 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1.name {
+  font-family: tahoma;
+  /* font-size: 18px; */
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 256px;
+}
+
+.message{
+  font-size: 27px;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  left: 90px;
+  animation: openclose 5s ease-in-out infinite;
+}
+.word1{
+  font-size: 30px;
+  padding-top: 10px;
+}
+.word2{
+  font-size: 25px;
+  padding-top: 15px;
+  white-space: pre-wrap;
+}
+  
+
+
+
+.options a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+.options a:hover{
+    background: #ef5050;
+    border-radius: 10px;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fb792b;
+    border-radius: 8px;
+}
+.register a:hover{
+    background: transparent;
+    border: 1px solid rgb(124, 92, 205);
+    transition: 0.4sec;
+    
+}
+.content{
+    margin: 12%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.content span{
+    letter-spacing: 5px;
+    font-family:  Body,Quicksand,sans-serif;
+    line-height: 1.42857143;
+}
+.content h1{
+    font-size: 3.5em;
+}
+.content a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fb792b;
+    color:white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.content a:hover{
+    letter-spacing: 4px;
+}
+
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.copyright{
+    float: right;
+}
+
+
+
+
+
+@keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }

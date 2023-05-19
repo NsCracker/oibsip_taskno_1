@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #333;
+    text-align: center;
+}
+
+.content{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+div a{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(148, 181, 243, 0.014);
+    border-radius: 10px;
+    text-decoration: none;
+    color: burlywood;
+    font-size: 30px;
+}

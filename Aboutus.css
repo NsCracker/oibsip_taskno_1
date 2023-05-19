@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("/TASK 1/img/aboutus.jpg");
+    background-size: cover;
+}
+.about {
+    display: block;
+    text-align: center;
+}
+.about h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    color: rgb(255, 8, 8);
+}
+  
+.about p {
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: rgb(16, 16, 16);
+    text-align: left;
+    width: 90rem;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fb792b;
+    border-radius: 8px;
+}
+div a:hover{
+    background: transparent;
+    border: 1px solid rgb(124, 92, 205);
+    transition: 0.4sec;  
+}
